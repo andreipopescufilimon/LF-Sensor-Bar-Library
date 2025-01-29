@@ -2,6 +2,10 @@
 
 LF_SData is an Arduino library for handling **16-sensor bars with a multiplexer (MUX)** and a **distance sensor**. This library provides easy setup, calibration, and real-time data reading.
 
+<p align="center">
+  <img src="https://hyperlinerobotics.com/assets/images/products/16-sensors-array.jpg" alt="Sensor Image" width="400">
+</p>
+
 ## 🚀 Features
 - Supports **16 sensor bars** connected via a **multiplexer**.
 - Works with a **single distance sensor**.
@@ -28,11 +32,3 @@ LF_SData is an Arduino library for handling **16-sensor bars with a multiplexer 
 - `calibrateSensors(bool fullCalibration)`: Performs full or partial calibration.
 - `getLinePosition()`: Returns the **line position** based on sensor readings.
 - `getLiveSerialPrint(bool printSensors, bool printDistance)`: Prints real-time sensor data to **Serial Monitor**.
-
-## 📁 Example Usage
-
-### 1️ Distance Sensor Example
-### 2️ Line Sensor Example
-
----
-👨‍💻 **Developed by:** Popescu Filimon Andrei
