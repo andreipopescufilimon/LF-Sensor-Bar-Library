@@ -3,11 +3,11 @@
 
 LF_SData sensorData;
 
-#define S0 2   // Multiplexer select pin S0
-#define S1 3   // Multiplexer select pin S1
-#define S2 4   // Multiplexer select pin S2
-#define S3 5   // Multiplexer select pin S3
-#define SIG A0 // Analog signal pin from multiplexer
+#define S0 0   // Multiplexer select pin S0
+#define S1 1   // Multiplexer select pin S1
+#define S2 2   // Multiplexer select pin S2
+#define S3 4   // Multiplexer select pin S3
+#define SIG A5 // Analog signal pin from multiplexer
 
 void setup() {
     Serial.begin(115200);
